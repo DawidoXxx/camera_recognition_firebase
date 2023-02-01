@@ -1,7 +1,8 @@
-package com.seleco.camera_recognition_firebase
+package com.seleco.camera_recognition_firebase.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.seleco.camera_recognition_firebase.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
