@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">camera_recognition_firebase</string>
+    <string name="login_Btn">Login</string>
+    <string name="email_txt">Email</string>
+    <string name="password">Password</string>
+    <string name="register_btn">Register</string>
+    <string name="password_again">Repeat password</string>
 </resources>
