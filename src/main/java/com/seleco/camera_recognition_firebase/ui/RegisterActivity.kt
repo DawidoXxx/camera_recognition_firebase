@@ -14,6 +14,7 @@ import com.seleco.camera_recognition_firebase.R
 class RegisterActivity : AppCompatActivity() {
 
     private lateinit var auth: FirebaseAuth
+//    private lateinit var database: Firebas
     private lateinit var registerBtn:Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -53,6 +54,8 @@ class RegisterActivity : AppCompatActivity() {
                     if (task.isSuccessful) {
                         Log.d("FirebaseAuth", "createUserWithEmail:success")
                         val user = auth.currentUser
+
+
                         startActivity(Intent(this, MainActivity::class.java))
                         finish()
                     } else {
